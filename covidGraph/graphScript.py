@@ -60,7 +60,7 @@ def IowaCases():
 		graphChanges.append(dailyChangeList[item])
 
 
-	# This graphs the number of covid cases every 15 days for Iowa since first case
+	# This graphs the number of covid cases every 20 days for Iowa since first case
 	pylab.xlabel('Date')
 	pylab.ylabel('Number of Cases')
 	pylab.title('Iowa Covid-19 Cases')
